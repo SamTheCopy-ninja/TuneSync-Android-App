@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck3"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:paddingBottom="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/music_events_near_you" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/search_for_concert_events" />
+
+    <EditText
+        android:id="@+id/etQuery"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/rounded_input"
+        android:hint="@string/hint_query" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/select_time_period" />
+
+    <Spinner
+        android:id="@+id/spinnerDate"
+        android:layout_width="350dp"
+        android:background="@drawable/rounded_input"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/live_or_virtual_event" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switchVirtual"
+        android:background="@drawable/rounded_input"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/virtual_events_only" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="200dp"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/customRed"
+        android:text="@string/search_concerts" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/music_events_found" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutPendingSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#FFA500"
+            android:textStyle="bold"
+            android:text="@string/pending_offline_search" />
+
+        <TextView
+            android:id="@+id/tvPendingSearchDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/btnExecutePendingSearch"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/customRed"
+            android:text="@string/execute_pending_search" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateTint="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewConcerts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

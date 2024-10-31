@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">TuneSync</string>
+
+    <string name="welcome_message">Welkom terug by jou Musiek-sentrum!</string>
+    <string name="email_label">E-pos</string>
+    <string name="email_hint">Voer jou e-pos in</string>
+    <string name="password_label">Wagwoord</string>
+    <string name="password_hint">Voer jou wagwoord in</string>
+    <string name="login_button">Teken Weer In</string>
+    <string name="register_prompt">Geen rekening nie? Klik Hier Om Te Registreer</string>
+    <string name="fingerprint_login">Teken in met Vingerafdruk</string>
+    <string name="music_universe_message">Maak gereed om terug te duik in jou musiekheelal!</string>
+    <string name="switch_language">Skakel oor na Engels</string>
+
+    <string name="song_title">Lied Titel</string>
+    <string name="artist_name">Kunstenaar Naam</string>
+
+    <string name="previous">Vorige</string>
+    <string name="play_pause">Speel/Staak</string>
+    <string name="next">Volgende</string>
+
+    <string name="album_timeline_label">Album Tydlyn (Klik op die Omslagkunste om Liedjies te Filter):</string>
+    <string name="artist_songs_label">Kunstenaars Liedjies</string>
+    <string name="now_playing">Nou Speel</string>
+    <string name="reset_filter">Stel Filter Terug</string>
+
+    <string name="artists_header">Kunstenaars</string>
+
+    <string name="music_events_near_you">Musiekgeleenthede Naby Jou</string>
+    <string name="search_for_concert_events">Soek Na Konsertgeleenthede:</string>
+    <string name="hint_query">bv. Konserte in Durban</string>
+    <string name="select_time_period">Kies Tydperk:</string>
+    <string name="live_or_virtual_event">Lewende Of Virtuele Gebeurtenis:</string>
+    <string name="virtual_events_only">Slegs Virtuele Gebeurtenisse</string>
+    <string name="search_concerts">Soek Konserte</string>
+    <string name="music_events_found">Musiekgeleenthede Gevind Vir Jou:</string>
+
+    <string name="explore_tunesync">Verken TuneSync!</string>
+    <string name="access_my_music">Toegang Tot My Musiek</string>
+    <string name="create_view_playlists">Skep/Besigtig Speellyste</string>
+    <string name="audio_settings">Klankinstellings</string>
+    <string name="more_than_music">Meer as net Musiek!</string>
+    <string name="log_me_out">Teken My Uit</string>
+
+    <string name="playlist_name">Speellys Naam</string>
+    <string name="genre_distribution">Genreverspreiding In Jou Speellys:</string>
+    <string name="add_song">Voeg Liedjie Toe</string>
+    <string name="hide_list">Versteek Lys</string>
+    <string name="songs_in_playlist">Liedjies In Jou Speellys:</string>
+
+    <string name="your_playlists">Jou Speellyste</string>
+    <string name="currently_created">Tans Geskep (Klik om liedjies te sien/voeg)</string>
+
+    <string name="welcome_message2">Welkom by TuneSync!</string>
+    <string name="register_button_text">Begin Jou Musiekreis</string>
+    <string name="unlock_music">Ontsluit \'n wêreld van musiek binne jou vingers!</string>
+
+    <string name="search_hint">Soek Liedjies</string>
+    <string name="album_cover_description">Album Oorkapping en Kontroles</string>
+    <string name="show_lyrics">Wys Liedjies</string>
+    <string name="total_songs_text">Totale Liedjies Op Jou Toestel: %1$d</string>
+    <string name="hide_lyrics">Versteek Liedjies</string>
+
+    <string name="biometric_login_title">Biometriese Aanmelding vir TuneSync</string>
+    <string name="biometric_login_subtitle">Teken in met jou vingerafdruk</string>
+    <string name="biometric_login_negative">Gebruik rekening wagwoord</string>
+
+    <string name="tab_songs">Liedjies</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_artists">Kunstenaars</string>
+
+    <string name="pending_offline_search">Afwagting van Offline Soek</string>
+    <string name="execute_pending_search">Voer Afwagende Soek uit</string>
+    <string name="no_internet_search_saved">Geen internetverbinding nie. Soek is vir later gestoor.</string>
+    <string name="no_internet_available">Geen internetverbinding beskikbaar nie</string>
+    <string name="pending_search_details">Navraag: %1$s\nDatum: %2$s\nVirtueel: %3$s</string>
+
+    <string name="search_hint2">Soek Albums</string>
+    <string name="toggle_albums1">Raasieweergawes</string>
+    <string name="toggle_albums2">Lysweergawes</string>
+
+    <string name="now_playing_format">Nou Speel: %1$s - deur %2$s</string>
+
+    <string name="artist_stats_format">Albums: %1$d | Liedjies: %2$d</string>
+
+    <string name="search_hint3">Soek Kunstenaar</string>
+
+    <string name="view_concert_details">Bekyk Konsertbesonderhede</string>
+</resources>

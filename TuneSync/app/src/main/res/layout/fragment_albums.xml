@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bck2">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_input"
+        android:layout_margin="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/search_hint2" />
+
+    <ToggleButton
+        android:id="@+id/viewToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/toggle_albums2"
+        android:textOff="@string/toggle_albums1"
+        android:checked="false"
+        android:layout_gravity="end"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_toggle_button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
+
+
+

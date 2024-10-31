@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">TuneSync</string>
+
+    <string name="welcome_message">Welcome back to your Music Hub!</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button">Log Back In</string>
+    <string name="register_prompt">No account? Click Here To Register</string>
+    <string name="fingerprint_login">Login with Fingerprint</string>
+    <string name="music_universe_message">Get ready to dive back into your musical universe!</string>
+    <string name="switch_language">Switch to Afrikaans</string>
+
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+
+    <string name="previous">Previous</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="next">Next</string>
+
+    <string name="album_timeline_label">Album Timeline (Click Cover Art To Filter Songs):</string>
+    <string name="artist_songs_label">Artist Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="reset_filter">Reset Filter</string>
+
+    <string name="artists_header">Artists</string>
+
+    <string name="music_events_near_you">Music Events Near You</string>
+    <string name="search_for_concert_events">Search For Concert Events:</string>
+    <string name="hint_query">e.g. Concerts in Durban</string>
+    <string name="select_time_period">Select Time Period:</string>
+    <string name="live_or_virtual_event">Live Or Virtual Event:</string>
+    <string name="virtual_events_only">Virtual Events Only</string>
+    <string name="search_concerts">Search Concerts</string>
+    <string name="music_events_found">Music Events Found For You:</string>
+
+
+    <string name="explore_tunesync">Explore TuneSync!</string>
+    <string name="access_my_music">Access My Music</string>
+    <string name="create_view_playlists">Create/View Playlists</string>
+    <string name="audio_settings">Audio Settings</string>
+    <string name="more_than_music">More than just Music!</string>
+    <string name="log_me_out">Log Me Out</string>
+
+    <string name="playlist_name">Playlist Name</string>
+    <string name="genre_distribution">Genre Distribution In Your Playlist:</string>
+    <string name="add_song">Add Song</string>
+    <string name="hide_list">Hide List</string>
+    <string name="songs_in_playlist">Songs In Your Playlist:</string>
+
+    <string name="your_playlists">Your Playlists</string>
+    <string name="currently_created">Currently Created (Click to view/add songs)</string>
+
+    <string name="welcome_message2">Welcome to TuneSync!</string>
+    <string name="register_button_text">Start Your Musical Journey</string>
+    <string name="unlock_music">Unlock a world of music at your fingertips!</string>
+
+    <string name="search_hint">Search Songs</string>
+    <string name="album_cover_description">Album Cover and Controls</string>
+    <string name="show_lyrics">Show Lyrics</string>
+    <string name="total_songs_text">Total Songs On Your Device: %1$d</string>
+    <string name="hide_lyrics">Hide Lyrics</string>
+
+    <string name="biometric_login_title">Biometric Login for TuneSync</string>
+    <string name="biometric_login_subtitle">Log in using your fingerprint</string>
+    <string name="biometric_login_negative">Use account password</string>
+
+    <string name="tab_songs">Songs</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_artists">Artists</string>
+
+    <string name="pending_offline_search">Pending Offline Search</string>
+    <string name="execute_pending_search">Execute Pending Search</string>
+    <string name="no_internet_search_saved">No internet connection. Search saved for later.</string>
+    <string name="no_internet_available">No internet connection available</string>
+    <string name="pending_search_details">Query: %1$s\nDate: %2$s\nVirtual: %3$s</string>
+
+    <string name="search_hint2">Search Albums</string>
+    <string name="toggle_albums1">Grid View</string>
+    <string name="toggle_albums2">List View</string>
+
+    <string name="now_playing_format">Now Playing: %1$s - by %2$s</string>
+
+    <string name="artist_stats_format">Albums: %1$d | Songs: %2$d</string>
+
+    <string name="search_hint3">Find Artist</string>
+
+    <string name="view_concert_details">View Concert Details</string>
+
+</resources>

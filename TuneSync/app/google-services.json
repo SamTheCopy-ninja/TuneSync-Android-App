@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665785572433",
+    "project_id": "tunesync-60e99",
+    "storage_bucket": "tunesync-60e99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665785572433:android:ec8a4ac35a9d8360dbac70",
+        "android_client_info": {
+          "package_name": "com.example.tunesync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVfKlGuWw1PgeKlYNnX-ZN19wW28BU1Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
