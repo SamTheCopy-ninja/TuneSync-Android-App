@@ -199,7 +199,7 @@ Before you begin, ensure you have the following installed:
 2. Clone the repository using the following command:
 
    ```bash
-   git clone https://github.com/VCDN-2024/opsc7312-part-poe-ST10082747.git
+   git clone https://github.com/SamTheCopy-ninja/TuneSync-Android-App.git
 3. Navigate to the project directory:
    ```bash
    cd tunesync
