@@ -9,11 +9,38 @@ The app allows allows music playback to continue in the background even with the
 
 ### View a demo video of the app and its features here: [Walkthrough Demo](https://youtu.be/LrQR7Y7G_lQ)  
 
-![playstore](https://github.com/user-attachments/assets/aac289ad-2d8b-45e1-9609-60dd2fdb6fb0)
+## TuneSync is now self-released under 13th Coffin!
 
-## Tune Sync is now on the Google Play Store! Download the app for your Android Device here: [Google Play Download](https://play.google.com/store/apps/details?id=com.tunesync.app)  
+TuneSync was previously available on the Google Play Store through a university-affiliated organization. That organization has since been removed by Google, which unfortunately led to the app being taken down.
 
-View some of our Play Store image assets below:  
+The project is still actively maintained and is now being self-released under the **13th Coffin** banner. You can download the latest signed APK from the [GitHub Releases](https://github.com/your-username/TuneSync/releases) page, to try the app on your **Android** device.
+
+---
+
+### 📲 How to Install (Sideload) the APK on Android
+
+1. **Download the APK**  
+   Head over to the [GitHub Releases](https://github.com/your-username/TuneSync/releases) and download the latest `TuneSync-vX.X.X.apk` file to your device.
+
+2. **Enable APK installs from unknown sources**  
+   - Go to **Settings** > **Security** (or **Apps & Notifications**)  
+   - Tap **Install unknown apps**  
+   - Select the browser or file manager you’re using  
+   - Enable **Allow from this source**
+
+3. **Install the APK**  
+   - Open the downloaded file  
+   - Confirm the installation prompt  
+   - That’s it! TuneSync should now be installed and ready to use.
+
+> ⚠️ Note: You may get a warning from Android about installing apps from outside the Play Store. This is normal — just be sure you're installing the APK from this official GitHub page.
+
+---
+
+Thanks for checking out TuneSync! If you run into bugs, have suggestions, or just want to say hey — feel free to reach out.
+
+
+### View some of our in-app image assets below:  
 
 ![1](https://github.com/user-attachments/assets/239c685a-1faf-4e44-8df3-fe079f4a3ee8)
 
