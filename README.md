@@ -13,14 +13,14 @@ The app allows allows music playback to continue in the background even with the
 
 TuneSync was previously available on the Google Play Store through a university-affiliated organization. That organization has since been removed by Google, which unfortunately led to the app being taken down.
 
-The project is still actively maintained and is now being self-released under the **13th Coffin** banner. You can download the latest signed APK from the [GitHub Releases](https://github.com/your-username/TuneSync/releases) page, to try the app on your **Android** device.
+The project is still actively maintained and is now being self-released under the **13th Coffin** banner. You can download the latest signed APK from the [GitHub Releases](https://github.com/SamTheCopy-ninja/TuneSync-Android-App/releases/tag/v1.2.0) page, to try the app on your **Android** device.
 
 ---
 
 ### 📲 How to Install (Sideload) the APK on Android
 
 1. **Download the APK**  
-   Head over to the [GitHub Releases](https://github.com/your-username/TuneSync/releases) and download the latest `TuneSync-vX.X.X.apk` file to your device.
+   Head over to the [GitHub Releases](https://github.com/SamTheCopy-ninja/TuneSync-Android-App/releases/tag/v1.2.0) and download the latest `TuneSync-vX.X.X.apk` file to your device.
 
 2. **Enable APK installs from unknown sources**  
    - Go to **Settings** > **Security** (or **Apps & Notifications**)  
